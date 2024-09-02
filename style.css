@@ -1,0 +1,164 @@
+/*Index-style*/
+* {
+    margin: 0.20%;
+    padding: 0.6%;
+    background-color: black;
+    font-family:monospace;
+    letter-spacing: 0.4%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.imagem-perfil{
+    height: 18%;
+    width: 18%;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+.links{
+    margin: 0.2%;
+    height: 6%;
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    text-decoration-line: none;
+}
+
+.links a.link-ativo {
+    color: rgb(245, 127, 127);
+}
+
+nav>a{
+    color: rgb(173, 43, 93);
+    text-decoration: none;
+    
+}
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 25px;
+    color: tomato;
+}
+h3{
+    color: tomato; 
+}
+p{
+    color: violet;
+}
+
+/*About-me-style*/
+
+.about-me{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.imagem-sobre{
+    height: 18%;
+    width: 18%;
+    margin-left: 2%;
+    border-radius: 15px;
+}
+.titulo-h2{
+    color: tomato;
+}
+
+/*Education-style*/
+
+.titulo-education{
+    color: tomato;
+}
+.education-courses{
+    color: violet;
+    margin-left: 10%;
+}
+
+.education-list{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Project-style*/
+.style-project-text{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.description-project{
+    color: lightcoral;
+}
+.game-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-left: 45%;
+}
+.blackjack-ourgame-button{
+    height: 20%;
+    width: 15%;
+    border: lightsalmon;
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px;
+   
+}
+
+/*Reach-me-style*/
+.reach-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    
+}
+.header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.reach-me>h2{
+    color:tomato; 
+}
+.form-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 30px;
+    width: 90px;
+    color:violet; 
+}
+.type-message{
+
+    justify-content:safe;
+    height: 100px;
+    width: 900px;
+}
+.button_send{
+    color: salmon;
+    align-content:space-around;
+}
+.footer-reach-me{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 70px;
+    align-items: center;
+}
+.button-back{
+    color: salmon;
+}
